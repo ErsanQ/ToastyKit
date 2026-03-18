@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ToastKit'
+  s.name             = 'ToastyKit'
   s.version          = '1.0.0'
   s.summary          = 'Lightweight and beautiful toast notifications for iOS.'
 
@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
     Supports both UIKit and SwiftUI.
   DESC
 
-  s.homepage         = 'https://github.com/ErsanQ/ToastKit'
+  s.homepage         = 'https://github.com/ErsanQ/ToastyKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ersan' => 'ersan5599@gmail.com' }
   s.source           = { :git =>
-  'https://github.com/ErsanQ/ToastKit.git',
+  'https://github.com/ErsanQ/ToastyKit.git',
    :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
