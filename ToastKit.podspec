@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     Supports both UIKit and SwiftUI.
   DESC
 
-  s.homepage         = 'https://github.com/YOUR_USERNAME/ToastKit'
+  s.homepage         = 'https://github.com/ErsanQ/ToastKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ersan' => 'ersan5599@gmail.com' }
   s.source           = { :git =>
