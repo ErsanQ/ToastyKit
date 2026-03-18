@@ -1,0 +1,60 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+
+  <!-- Title -->
+  <text x="350" y="36" text-anchor="middle" font-size="18" font-weight="500" fill="#111">ToastyKit — Toast Notifications for iOS</text>
+
+  <!-- iPhone frame -->
+  <rect x="240" y="60" width="220" height="400" rx="36" ry="36" fill="#f5f5f5" stroke="#ccc" stroke-width="1.5"/>
+  <!-- screen -->
+  <rect x="250" y="76" width="200" height="368" rx="24" ry="24" fill="#fff" stroke="#e0e0e0" stroke-width="0.5"/>
+  <!-- notch -->
+  <rect x="310" y="76" width="80" height="22" rx="11" fill="#f5f5f5"/>
+  <!-- home indicator -->
+  <rect x="320" y="428" width="60" height="4" rx="2" fill="#ccc"/>
+
+  <!-- App content placeholder lines -->
+  <rect x="268" y="116" width="120" height="10" rx="4" fill="#ddd" opacity="0.7"/>
+  <rect x="268" y="132" width="80" height="8" rx="4" fill="#ddd" opacity="0.5"/>
+  <rect x="268" y="160" width="164" height="60" rx="8" fill="#f5f5f5"/>
+  <rect x="268" y="232" width="164" height="60" rx="8" fill="#f5f5f5"/>
+
+  <!-- SUCCESS toast -->
+  <rect x="260" y="306" width="180" height="40" rx="10" fill="#2ecc71"/>
+  <text x="280" y="321" font-size="14" fill="white">✅</text>
+  <text x="300" y="321" font-size="12" font-weight="500" fill="white">تم الحفظ بنجاح!</text>
+  <text x="300" y="336" font-size="10" fill="white" opacity="0.85">البيانات محدّثة</text>
+  <line x1="440" y1="326" x2="480" y2="326" stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="480" y="310" width="90" height="28" rx="6" fill="#E1F5EE"/>
+  <text x="525" y="328" text-anchor="middle" font-size="12" font-weight="500" fill="#0F6E56">.success</text>
+
+  <!-- ERROR toast -->
+  <rect x="260" y="354" width="180" height="36" rx="10" fill="#e74c3c"/>
+  <text x="280" y="377" font-size="13" fill="white">❌</text>
+  <text x="300" y="377" font-size="11" font-weight="500" fill="white">حدث خطأ، أعد المحاولة</text>
+  <line x1="440" y1="372" x2="480" y2="372" stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="480" y="357" width="80" height="28" rx="6" fill="#FCEBEB"/>
+  <text x="520" y="375" text-anchor="middle" font-size="12" font-weight="500" fill="#A32D2D">.error</text>
+
+  <!-- WARNING toast -->
+  <rect x="260" y="396" width="180" height="36" rx="10" fill="#f1c40f"/>
+  <text x="280" y="419" font-size="13" fill="#333">⚠️</text>
+  <text x="300" y="419" font-size="11" font-weight="500" fill="#333">انتبه من هذا الإجراء</text>
+  <line x1="440" y1="414" x2="480" y2="414" stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="480" y="400" width="90" height="28" rx="6" fill="#FAEEDA"/>
+  <text x="525" y="418" text-anchor="middle" font-size="12" font-weight="500" fill="#854F0B">.warning</text>
+
+  <!-- INFO toast -->
+  <rect x="260" y="96" width="180" height="34" rx="10" fill="#3498db"/>
+  <text x="280" y="118" font-size="13" fill="white">ℹ️</text>
+  <text x="300" y="118" font-size="11" font-weight="500" fill="white">تحديث جديد متاح!</text>
+  <line x1="260" y1="113" x2="220" y2="113" stroke="#ccc" stroke-width="1" stroke-dasharray="4,3"/>
+  <rect x="130" y="99" width="90" height="28" rx="6" fill="#E6F1FB"/>
+  <text x="175" y="117" text-anchor="middle" font-size="12" font-weight="500" fill="#185FA5">.info</text>
+
+  <!-- Code snippet -->
+  <rect x="30" y="415" width="190" height="50" rx="8" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="0.5"/>
+  <text x="44" y="433" font-size="11" fill="#666" font-family="monospace">Toast.success("تم الحفظ!")</text>
+  <text x="44" y="449" font-size="11" fill="#666" font-family="monospace">Toast.error("حدث خطأ")</text>
+  <text x="44" y="465" font-size="11" fill="#666" font-family="monospace">Toast.warning("تنبيه")</text>
+
+</svg>
