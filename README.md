@@ -1,3 +1,7 @@
+## Preview
+
+![ToastyKit Preview](toastykit_preview.svg)
+
 # 🍞 ToastKit
 
 [![Version](https://img.shields.io/cocoapods/v/ToastKit.svg?style=flat)](https://cocoapods.org/pods/ToastKit)
